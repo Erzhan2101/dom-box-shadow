@@ -26,13 +26,13 @@ inset.oninput = cssGenerator
 
 function cssGenerator() {
     console.log(outset.checked)
-    let shadow =
+    let shadow = outset.checked ? "" : "inset"
     box.style.borderRadius = borderRadius.value + "%";
-    box.style.boxShadow = `${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value}`;
+    box.style.boxShadow = `${offsetX.value}px  ${offsetY.value}px  ${blur.value}px  ${spread.value}px  ${shadowColor.value}  ${shadow}`;
     box.style.backgroundColor = `${colorBox.value}`;
-    out.innerHTML = `box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value};<br>`;
-    out.innerHTML = out.innerHTML + `-webkit-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value};<br>`;
-    out.innerHTML = out.innerHTML + `-moz-box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${shadowColor.value};`;
+    out.innerHTML = `box-shadow: ${offsetX.value}px  ${offsetY.value}px  ${blur.value}px  ${spread.value}px  ${shadowColor.value} ${shadow};<br>`;
+    out.innerHTML = out.innerHTML + `-webkit-box-shadow: ${offsetX.value}px  ${offsetY.value}px  ${blur.value}px  ${spread.value}px  ${shadowColor.value} ${shadow};<br>`;
+    out.innerHTML = out.innerHTML + `-moz-box-shadow: ${offsetX.value}px  ${offsetY.value}px  ${blur.value}px  ${spread.value}px  ${shadowColor.value} ${shadow};`;
 
 }
 
