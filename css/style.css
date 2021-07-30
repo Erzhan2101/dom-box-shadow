@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    margin: 0 auto;
+}
+
+.out{
+    padding: 60px;
+    background-color: #b6b5b5;
+    margin-top: 40px;
+    border-radius: 15px;
+    line-height: 40px;
+}
+
+.range{
+    display: flex;
+
+}
