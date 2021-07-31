@@ -36,4 +36,6 @@ function cssGenerator() {
 
 }
 
+console.log(colorBox.value)
+
 cssGenerator()
