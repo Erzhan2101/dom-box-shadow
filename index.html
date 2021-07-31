@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
 <h1 class="title">Box shadow CSS Generator</h1>
 <div class="generator">
     <div class="range">
@@ -22,10 +23,17 @@
         <input type="range" class="blur" value="0" min="-100">
         <h4 class="b-r">spread</h4>
         <input type="range" class="spread" value="0" min="-100">
-        <input type="color" class="shadow-color">
-        <input type="color" value="#acdf0b" class="color-box">
-        <input type="radio" class="outset" name="type" checked>
-        <input type="radio" class="inset" name="type">
+        <div class="color">
+            <h4 class="b-r">color box</h4>
+            <input type="color" class="shadow-color">
+            <input type="color" value="#acdf0b" class="color-box">
+        </div>
+        <div class="radio-btn">
+            <h4 class="b-r">unset on</h4>
+            <input type="radio" class="outset" name="type" checked>
+            <h4 class="b-r">unset off</h4>
+            <input type="radio" class="inset" name="type">
+        </div>
     </div>
     <div class="box-out">
         <div class="box"></div>
