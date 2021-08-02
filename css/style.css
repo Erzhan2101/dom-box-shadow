@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Palette+Mosaic&display=swap');
 
+
+
 body {
-    background: linear-gradient(60deg, rgba(2, 0, 36, 1) 12%, rgba(11, 223, 103, 1) 69%) no-repeat;
+    background: url("../img/photo5204370198398874711.jpg") no-repeat center/cover;
     font-family: 'Bebas Neue', cursive;
     height: 100vh;
 }
@@ -9,13 +11,12 @@ body {
 .box {
     width: 200px;
     height: 200px;
-    background-color: crimson;
     margin: 0 auto;
 }
 
 .out {
     padding: 40px;
-    background-color: #b6b5b5;
+    background-color: #32572c;
     margin-top: 40px;
     border-radius: 15px;
     line-height: 40px;
@@ -40,40 +41,47 @@ body {
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
     margin-bottom: 70px;
+    color: #32572c;
 }
 
 .range {
-    border: 5px solid #f5e13573;
+    border: 5px solid rgba(95, 3, 13, 0.52);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(95, 3, 13, 0.79);
 }
 
 input {
     margin-top: 5px;
 }
 
-.border-radius{
-    width: 85%;
-}
-.offsetX{
-    width: 85%;
-}
-.offsetY{
-    width: 85%;
-}
-.blur{
-    width: 85%;
-}
-.spread{
+.border-radius {
     width: 85%;
 }
 
-.b-r{
+.offsetX {
+    width: 85%;
+}
+
+.offsetY {
+    width: 85%;
+}
+
+.blur {
+    width: 85%;
+}
+
+.spread {
+    width: 85%;
+}
+
+.b-r {
     margin: 5px;
+    color: #32572c;
 }
 
-.color{
+.color {
     text-align: center;
 }
