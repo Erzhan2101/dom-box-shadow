@@ -1,3 +1,39 @@
 @media (max-width: 1200px) {
-    
+    body {
+        height: 155vh;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        height: 170vh;
+    }
+
+    .generator {
+        display: unset;
+
+    }
+
+    .range {
+        width: 92%;
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .title {
+        margin-bottom: 6px;
+        font-size: 21px;
+    }
+    input {
+         margin-top: unset;
+    }
+
 }
