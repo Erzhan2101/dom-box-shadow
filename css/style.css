@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Palette+Mosaic&display=swap');
 
 body {
-    background: rgb(8,126,79);
+    background: rgb(8, 126, 79);
     background: linear-gradient(0deg, rgb(8, 196, 120) 0%, rgb(63, 185, 206) 23%);
     font-family: 'Bebas Neue', cursive;
-    height: 100vh;
+    height: 116vh;
 }
 
 .box {
+    margin-top: 100px;
     width: 200px;
     height: 200px;
-    margin: 0 auto;
 }
 
 .out {
     padding: 40px;
     background-color: #34c49c;
-    margin-top: 40px;
+    margin-top: 155px;
     border-radius: 15px;
     line-height: 40px;
     width: 50%;
@@ -45,6 +45,7 @@ body {
 }
 
 .range {
+    width: 117%;
     border: 1px solid #0f5e47;
     border-radius: 20px;
     display: flex;
@@ -56,7 +57,6 @@ body {
 input {
     margin-top: 5px;
 }
-
 
 
 .offsetX {
@@ -76,6 +76,7 @@ input {
 }
 
 .b-r {
+    padding-top: 10px;
     margin: unset;
     color: #32572c;
 }
@@ -84,15 +85,15 @@ input {
     text-align: center;
 }
 
-.shadow-color{
+.shadow-color {
     width: 60%;
 }
 
-.color-box{
+.color-box {
     width: 60%;
 }
 
-.border-radius{
+.border-radius {
     -webkit-appearance: none;
     width: 95%;
     height: 25px;
@@ -116,6 +117,7 @@ input {
     background: #04AA6D;
     cursor: pointer;
 }
+
 .border-radius::-moz-range-thumb {
     width: 25px;
     height: 25px;
@@ -123,7 +125,7 @@ input {
     cursor: pointer;
 }
 
-.offsetX{
+.offsetX {
     -webkit-appearance: none;
     width: 95%;
     height: 25px;
@@ -135,7 +137,7 @@ input {
     border-radius: 10px;
 }
 
-.offsetX:hover{
+.offsetX:hover {
     opacity: 1;
 }
 
@@ -147,6 +149,7 @@ input {
     background: #04AA6D;
     cursor: pointer;
 }
+
 .offsetX::-moz-range-thumb {
     width: 25px;
     height: 25px;
@@ -154,7 +157,7 @@ input {
     cursor: pointer;
 }
 
-.offsetY{
+.offsetY {
     -webkit-appearance: none;
     width: 95%;
     height: 25px;
@@ -165,9 +168,11 @@ input {
     transition: opacity .2s;
     border-radius: 10px;
 }
-.offsetY:hover{
+
+.offsetY:hover {
     opacity: 1;
 }
+
 .offsetY::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -183,35 +188,8 @@ input {
     background: #04AA6D;
     cursor: pointer;
 }
-.blur{
-    -webkit-appearance: none;
-    width: 95%;
-    height: 25px;
-    background: #d3d3d3;
-    outline: none;
-    opacity: 0.7;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-    border-radius: 10px;
-}
-.blur:hover{
-    opacity: 1;
-}
-.blur::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 25px;
-    height: 25px;
-    background: #04AA6D;
-    cursor: pointer;
-}
-.blur::-moz-range-thumb {
-    width: 25px;
-    height: 25px;
-    background: #04AA6D;
-    cursor: pointer;
-}
-.spread{
+
+.blur {
     -webkit-appearance: none;
     width: 95%;
     height: 25px;
@@ -223,7 +201,39 @@ input {
     border-radius: 10px;
 }
 
-.spread:hover{
+.blur:hover {
+    opacity: 1;
+}
+
+.blur::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.blur::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.spread {
+    -webkit-appearance: none;
+    width: 95%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px;
+}
+
+.spread:hover {
     opacity: 1;
 }
 
@@ -235,6 +245,7 @@ input {
     background: #04AA6D;
     cursor: pointer;
 }
+
 .spread::-moz-range-thumb {
     width: 25px;
     height: 25px;
@@ -242,7 +253,7 @@ input {
     cursor: pointer;
 }
 
-p{
+p {
     margin: unset;
     color: #32572c;
 }
