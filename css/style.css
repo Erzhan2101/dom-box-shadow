@@ -4,7 +4,7 @@ body {
     background: rgb(8,126,79);
     background: linear-gradient(0deg, rgb(8, 196, 120) 0%, rgb(63, 185, 206) 23%);
     font-family: 'Bebas Neue', cursive;
-    height: 95vh;
+    height: 100vh;
 }
 
 .box {
@@ -94,13 +94,14 @@ input {
 
 .border-radius{
     -webkit-appearance: none;
-    width: 100%;
+    width: 95%;
     height: 25px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    border-radius: 10px;
 }
 
 .border-radius:hover {
@@ -124,13 +125,14 @@ input {
 
 .offsetX{
     -webkit-appearance: none;
-    width: 100%;
+    width: 95%;
     height: 25px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    border-radius: 10px;
 }
 
 .offsetX:hover{
@@ -154,13 +156,14 @@ input {
 
 .offsetY{
     -webkit-appearance: none;
-    width: 100%;
+    width: 95%;
     height: 25px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    border-radius: 10px;
 }
 .offsetY:hover{
     opacity: 1;
@@ -182,13 +185,14 @@ input {
 }
 .blur{
     -webkit-appearance: none;
-    width: 100%;
+    width: 95%;
     height: 25px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    border-radius: 10px;
 }
 .blur:hover{
     opacity: 1;
@@ -209,13 +213,14 @@ input {
 }
 .spread{
     -webkit-appearance: none;
-    width: 100%;
+    width: 95%;
     height: 25px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    border-radius: 10px;
 }
 
 .spread:hover{
@@ -237,4 +242,7 @@ input {
     cursor: pointer;
 }
 
-
+p{
+    margin: unset;
+    color: #32572c;
+}

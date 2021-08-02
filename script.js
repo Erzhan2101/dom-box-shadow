@@ -9,6 +9,11 @@ const colorBox = document.querySelector(".color-box")
 const out = document.querySelector(".out")
 const outset = document.querySelector(".outset")
 const inset = document.querySelector(".inset")
+const output = document.getElementById("demo");
+const output2 = document.getElementById("demo-offsetX")
+const output3 = document.getElementById("demo-offsetY")
+const output4 = document.getElementById("demo-blur")
+const output5 = document.getElementById("demo-spread")
 
 // onchange
 //oninput
@@ -24,6 +29,7 @@ out.oninput = cssGenerator
 outset.oninput = cssGenerator
 inset.oninput = cssGenerator
 
+
 function cssGenerator() {
     console.log(outset.checked)
     let shadow = outset.checked ? "" : "inset"
@@ -33,7 +39,11 @@ function cssGenerator() {
     out.innerHTML = `box-shadow: ${offsetX.value}px  ${offsetY.value}px  ${blur.value}px  ${spread.value}px  ${shadowColor.value} ${shadow};<br>`;
     out.innerHTML = out.innerHTML + `-webkit-box-shadow: ${offsetX.value}px  ${offsetY.value}px  ${blur.value}px  ${spread.value}px  ${shadowColor.value} ${shadow};<br>`;
     out.innerHTML = out.innerHTML + `-moz-box-shadow: ${offsetX.value}px  ${offsetY.value}px  ${blur.value}px  ${spread.value}px  ${shadowColor.value} ${shadow};`;
-
+    output.innerHTML = borderRadius.value;
+    output2.innerHTML = offsetX.value
+    output3.innerHTML = offsetY.value
+    output4.innerHTML = blur.value
+    output5.innerHTML = spread.value
 }
 
 console.log(colorBox.value)
