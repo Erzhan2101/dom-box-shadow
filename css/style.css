@@ -3,9 +3,10 @@
 
 
 body {
-    background: url("../img/photo5204370198398874711.jpg") no-repeat center/cover;
+    background: rgb(8,126,79);
+    background: linear-gradient(0deg, rgb(8, 196, 120) 0%, rgb(63, 185, 206) 23%);
     font-family: 'Bebas Neue', cursive;
-    height: 100vh;
+    height: 95vh;
 }
 
 .box {
@@ -16,12 +17,13 @@ body {
 
 .out {
     padding: 40px;
-    background-color: #32572c;
+    background-color: #34c49c;
     margin-top: 40px;
     border-radius: 15px;
     line-height: 40px;
     width: 50%;
     text-align: center;
+    border: 1px solid #0f5e47;
 }
 
 .box-out {
@@ -40,17 +42,17 @@ body {
     text-align: center;
     font-family: 'Anton', sans-serif;
     letter-spacing: 5px;
-    margin-bottom: 70px;
+    margin-bottom: 45px;
     color: #32572c;
 }
 
 .range {
-    border: 5px solid rgba(95, 3, 13, 0.52);
+    border: 1px solid #0f5e47;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(95, 3, 13, 0.79);
+    background-color: #34c49c;
 }
 
 input {
@@ -84,4 +86,15 @@ input {
 
 .color {
     text-align: center;
+}
+
+.shadow-color{
+    width: 60%;
+}
+.color-box{
+    width: 60%;
+}
+
+.range input[type=range]{
+    border: 1px solid #5F030DC9 ;
 }
